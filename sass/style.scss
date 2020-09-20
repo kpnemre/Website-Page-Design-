@@ -1,0 +1,102 @@
+@import "global";
+
+// header-------------------
+
+header{
+    background-color:#35424a;
+    color: #ffffff;
+    min-height: 70px;
+    border-bottom: 3px solid #a9508b;
+
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // y ekseninde hızlandı
+}
+header li{
+    display: inline;
+    // yan yana getirir.
+    padding: 0 20px;
+}
+span,
+header .current a {
+    color: #A9508B;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+// Showcase ---------
+#showcase {
+    min-height: 400px;
+    background: url("./img/showcase.jpg") no-repeat 0-400px;
+    text-align: center;
+    color: #ffffff;
+
+}
+#showcase h1{
+    font-size: 55px;
+    // margin-top: 100px;
+    // mt100px
+    margin: 100px 0 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+// Newsletter-----------
+#newsletter {
+    padding: 15px 0;
+    background-color: #35424a;
+    color: #ffffff;
+}
+#newsletter .container{
+    display: flex;
+    // container içindeki elemanlae blok olmalı flex için
+    justify-content: space-between;
+    align-items: center;
+}
+#newsletter input[type="email"]{
+    // birden fazla input olması durumunda direk istediğimizi çağırmak için kullandık
+    padding: 4px;
+    width: 250px;
+    height: 25px;
+    font-family: fantasy;
+}
+#boxes{
+    margin-top: 20px;
+
+}
+
+#boxes .container{
+    display: flex;
+    justify-content: space-between;
+}
+#boxes .box{
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box img{
+    width: 90px;
+}
+#boxes .box img:hover{
+    width: 100px;
+}
+
+footer {
+    background-color: cornsilk;
+    margin: 20px 0;
+    text-align: center;
+    border-top:2px solid #a9508b;
+    border-bottom:2px solid #a9508b;
+}

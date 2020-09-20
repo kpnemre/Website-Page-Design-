@@ -1,1 +1,142 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 36px;
+  background-color: #a9508b;
+  color: #ffffff;
+  border: none;
+}
+
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  min-height: 70px;
+  border-bottom: 3px solid #a9508b;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+
+span,
+header .current a {
+  color: #A9508B;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+#showcase {
+  min-height: 400px;
+  background: url("./img/showcase.jpg") no-repeat -400px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  font-size: 55px;
+  margin: 100px 0 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#newsletter {
+  padding: 15px 0;
+  background-color: #35424a;
+  color: #ffffff;
+}
+
+#newsletter .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  width: 250px;
+  height: 25px;
+  font-family: fantasy;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#boxes .box {
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+#boxes .box img:hover {
+  width: 100px;
+}
+
+footer {
+  background-color: cornsilk;
+  margin: 20px 0;
+  text-align: center;
+  border-top: 2px solid #a9508b;
+  border-bottom: 2px solid #a9508b;
+}
+/*# sourceMappingURL=style.css.map */

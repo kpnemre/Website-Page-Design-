@@ -1,0 +1,33 @@
+
+body {
+    // font-size: 15px;
+    // font-family: Arial, Helvetica, sans-serif;
+    // line-height: 1.5;
+    
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+// Global --------------
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    // scroll bar çıkmasın diye
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 36px;
+    background-color: #a9508b;
+    color: #ffffff;
+    border: none;
+
+}
