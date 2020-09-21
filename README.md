@@ -40,6 +40,8 @@ Build a Landing that is functionally similar to this: [Website Page Design](http
 
 - CSS
 
+- CSS FLEX
+
 ### At the end of the project, students will be able to;
 
 - improve coding skills within HTML & CSS
