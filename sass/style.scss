@@ -40,7 +40,9 @@ header a:hover{
 // Showcase ---------
 #showcase {
     min-height: 400px;
-    background: url("./img/showcase.jpg") no-repeat 0-400px;
+    background: url("./img/showcase.jpg") no-repeat;
+    // background: url("./img/showcase.jpg") no-repeat 0-400px; beyaz kenarı çıkaran -400px lik girdi.
+    background-size:100% 100% ;
     text-align: center;
     color: #ffffff;
 
@@ -103,3 +105,9 @@ footer {
     // border-bottom:2px solid #a9508b;
 
 }
+
+@media screen and (max-width: 600px) {
+    #newsletter .container{
+      flex-direction: column;
+    }
+  }

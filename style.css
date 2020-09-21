@@ -62,7 +62,7 @@ ul {
           justify-content: space-between;
   font-size: 15px;
   margin-top: 10px;
-  margin-bottom: 23%;
+  margin-bottom: 4%;
   padding-top: 5px;
   line-height: 23px;
 }
@@ -140,7 +140,8 @@ header a:hover {
 
 #showcase {
   min-height: 400px;
-  background: url("./img/showcase.jpg") no-repeat -400px;
+  background: url("./img/showcase.jpg") no-repeat;
+  background-size: 100% 100%;
   text-align: center;
   color: #ffffff;
 }
@@ -211,5 +212,14 @@ footer {
   margin: 20px 0;
   text-align: center;
   border-top: 2px solid #a9508b;
+}
+
+@media screen and (max-width: 600px) {
+  #newsletter .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
