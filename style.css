@@ -53,6 +53,10 @@ ul {
   margin-bottom: 100px;
 }
 
+.navabout a {
+  color: #A9508B;
+}
+
 #services .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,6 +99,10 @@ ul {
 #subject {
   width: 90%;
   height: 50px;
+}
+
+.navservices a {
+  color: #A9508B;
 }
 
 header {
