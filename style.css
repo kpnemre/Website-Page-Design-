@@ -23,6 +23,80 @@ ul {
   border: none;
 }
 
+#about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 23%;
+  line-height: 23px;
+}
+
+#second {
+  background-color: #35424a;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+#about .container .first {
+  padding-right: 70px;
+}
+
+#about .container .third {
+  background-color: #35424a;
+  padding: 15px 10px;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+#services .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 23%;
+  padding-top: 5px;
+  line-height: 23px;
+}
+
+.feature {
+  width: 65%;
+}
+
+.Design {
+  border: 1px solid #cccccc;
+  padding: 15px 10px;
+  margin: 5px 0;
+  background-color: #e6e6e6;
+}
+
+.form {
+  background-color: #35424a;
+  width: 28%;
+  padding: 15px 10px;
+  color: #ffffff;
+  margin-bottom: 350px;
+}
+
+#name,
+#email {
+  width: 90%;
+  height: 25px;
+}
+
+#subject {
+  width: 90%;
+  height: 50px;
+}
+
 header {
   background-color: #35424a;
   color: #ffffff;
@@ -137,6 +211,5 @@ footer {
   margin: 20px 0;
   text-align: center;
   border-top: 2px solid #a9508b;
-  border-bottom: 2px solid #a9508b;
 }
 /*# sourceMappingURL=style.css.map */
